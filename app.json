@@ -1,0 +1,55 @@
+{
+  "expo": {
+    "name": "SkillsUpriseApp",
+    "slug": "skillsuprise-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.skillsuprise.app",
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "This app needs location data to provide personalized content.",
+        "NSContactsUsageDescription": "This app needs access to contacts to sync user information.",
+        "NSCameraUsageDescription": "This app needs camera access for scanning features."
+      }
+    },
+    "android": {
+      "package": "com.skillsuprise.app",
+      "permissions": [
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION",
+        "READ_CONTACTS",
+        "WRITE_EXTERNAL_STORAGE",
+        "READ_EXTERNAL_STORAGE"
+      ],
+      "googleServicesFile": "./google-services.json"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "firebaseConfig": {
+        "apiKey": "AiZaSyDPBhxMPSRX-gfJSl7AOT1NoB3GzLSR9MA",
+        "authDomain": "hackersdatabase-d90a2.firebaseapp.com",
+        "databaseURL": "https://hackersdatabase-d90a2-default-rtdb.asia-southeast1.firebasedatabase.app",
+        "projectId": "hackersdatabase-d90a2",
+        "storageBucket": "hackersdatabase-d90a2.appspot.com",
+        "messagingSenderId": "968095333748",
+        "appId": "1:968095333748:web:3e40b77badb658d3154021"
+      }
+    },
+    "plugins": [
+      "expo-secure-store"
+    ]
+  }
+}

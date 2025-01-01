@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "968095333748",
+    "firebase_url": "https://hackersdatabase-d90a2-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "hackersdatabase-d90a2",
+    "storage_bucket": "hackersdatabase-d90a2.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:968095333748:android:e1080dfa87aec0bc154021",
+        "android_client_info": {
+          "package_name": "com.yourapp.netflixapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "968095333748-he1huecghe1vkpg4fm2sv7og0m4eefq3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAtRJtpLvP-_GOg9JEcV7_s9cJOg7iDsiE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "968095333748-he1huecghe1vkpg4fm2sv7og0m4eefq3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
